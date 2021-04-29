@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listName {
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    display: inline-block;
+    width: 48%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+button {
+    width: 30%;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    border-width: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+li {
+    list-style: none; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}
+
+.editInput {
+    line-height: 30px;
+    width: 30%;
+    margin-bottom: 0px;
+}
